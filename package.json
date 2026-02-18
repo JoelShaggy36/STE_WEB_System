@@ -1,0 +1,13 @@
+{
+  "name": "fullstack-angular-node",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:start": "npm --prefix backend run start",
+    "frontend:create": "node scripts/create-frontend.mjs",
+    "frontend:dev": "npm --prefix frontend start",
+    "dev": "node scripts/dev.mjs"
+  }
+}
+
